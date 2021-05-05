@@ -21,6 +21,7 @@ class TicTacToe:
 
     def available_moves(self):
         # cleaner way to write code below
+        # enumerate creates a list and assign tuples
         return [i for i, spot in enumerate(self.board) if spot == ' ']
 
         # moves = []
